@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Google.com Tests" verbose="1" >
+ 
+  <parameter name="googleURL" value="https://google.com" />
+  <parameter name="searchText" value="Testing Center of Excellence" />
+  
+ <test name="Tests: Google Search">
+  	<classes>
+    	<class name="com.tcoes.tests.TestGoogleSearch"></class>   	   	
+    </classes>
+  </test>   
+</suite>
